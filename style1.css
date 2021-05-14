@@ -1,0 +1,98 @@
+body
+{
+  margin: 0 auto;
+  background-color: white;
+
+}
+
+.error {
+  width: 100%; 
+  margin: 0px auto; 
+  padding: 1px; 
+  border: 1px solid #a94442; 
+  color: #a94442; 
+  background: #f2dede; 
+  border-radius: 5px; 
+  text-align: center;
+}
+
+
+body img {
+    width: 350px;
+    height: 350px;
+    position: absolute;
+      bottom: 0px;
+      left: 0px;
+    
+  }
+
+  .lcontainer{
+    width: 500px;
+    height: 400px;
+    text-align: center;
+    margin: 0 auto;
+    background-color: rgba(0, 51, 204, 0.5);
+    margin-top: 40px;
+    margin-left: 650px;
+    border-radius:8px;
+    box-shadow: 10px 10px 5px grey;
+  }
+
+  input {
+    margin-bottom: 20px;
+    height: 30px;
+    width: 300px;
+    text-align: left;
+    
+  
+  }
+
+.m input
+{
+  text-align: center;
+  
+  
+}
+  
+
+voter home page
+
+
+.topnav {
+  background-color: #0033cc;
+  overflow: hidden;
+  color: #0033cc;
+}
+
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 20px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  background-color: #0033cc;
+  height: 30px;
+  
+}
+
+
+.topnav a.active {
+  background-color: #4CAF50;
+  color: white;
+}
+
+.topnav a.z{
+  float: right;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}

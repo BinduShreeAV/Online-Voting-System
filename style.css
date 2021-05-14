@@ -1,0 +1,137 @@
+body
+{
+  margin: 0 auto;
+  background-color: white;
+  
+}
+
+.error {
+  width: 100%; 
+  margin: 0px auto; 
+  padding: 1px; 
+  border: 1px solid #a94442; 
+  color: #a94442; 
+  background: #f2dede; 
+  border-radius: 5px; 
+  text-align: left;
+}
+
+welcomepage
+
+div.b{
+	
+	height:540px;
+	background-repeat: no-repeat;
+    background-size:cover;
+    background-color: #0033cc;
+    color: white;
+	display:flex;
+	justify-content:center;
+    align-items:center;	
+	position:relative;
+}	
+
+div.overlay{
+	width:100%;
+	height:100%;
+	background:#000;
+	opacity:0.3;
+	position:absolute;
+}
+
+
+
+
+#position0{
+position:absolute;
+top:5px;
+left:0px;
+z-index:1;
+}
+
+#position{
+position:absolute;
+top:200px;
+left:150px;
+font-family:"times new roman";
+font-size:60px;
+z-index:1;
+}
+
+#position2{
+position:absolute;
+top:250px;
+left:850px;
+font-family:pacifico;
+font-size:30px;
+z-index:1;
+}
+
+#position3{
+position:absolute;
+font-family:"times new roman";
+top:50px;
+left:0px;
+z-index:1;
+}
+
+#position4{
+position:absolute;
+top:420px;
+left:150px;
+font-family:"times new roman";
+font-size:25px;
+z-index:1;
+}
+
+#size{
+	
+  font-size:38px;
+  color:yellow;
+  font-family:"cooper black";
+  }
+
+  #div4{
+    position:fixed;
+    top: -120px;
+    transition: top 0.5s;
+    z-index:2;
+    }
+
+  .article {
+
+    padding: 10px;
+   
+    background-color: #f1f1f1;
+    
+	text-color: white ;
+	
+}
+
+.article2{
+	font-family:"calibri";
+	margin-right:250px;
+	margin-left:90px;
+	font-size:18px;
+}
+
+#myBtn {
+    display: none; /* Hidden by default */
+    position: fixed; /* Fixed/sticky position */
+    bottom: 20px; /* Place the button at the bottom of the page */
+    right: 30px; /* Place the button 30px from the right */
+    z-index: 99; /* Make sure it does not overlap */
+    border: none; /* Remove borders */
+    outline: none; /* Remove outline */
+    background-color: 	#C0C0C0; /* Set a background color */
+    color: white; /* Text color */
+    cursor: pointer; /* Add a mouse pointer on hover */
+    padding: 6px; /* Some padding */
+    border-radius: 10px; /* Rounded corners */
+    font-size: 14px; /* Increase font size */
+}
+
+#myBtn:hover {
+    background-color: #555; /* Add a dark-grey background on hover */
+}
+
